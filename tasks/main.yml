@@ -1,0 +1,15 @@
+---
+- name: install Vagrant
+  apt: name=vagrant state=present
+
+- name: install Virtualbox
+  apt: name=virtualbox state=present
+
+- name: install icewm
+  apt: name=icewm state=present
+
+- name: install xterm
+  apt: name=xterm state=present
+
+- name: install tightvncserver
+  apt: name=tightvncserver state=present
